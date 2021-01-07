@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/*testo*/
+/*texto animado*/
 @-webkit-keyframes fade-in-out {
   0% {
     letter-spacing: -0.5em;
@@ -53,12 +53,12 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: 2px 2px 3px #fff8b3;
   font-family: 'Raleway', cursive;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 4em;
   width: 100%;
   text-align: left;
   margin-top: 100px;
   animation-name: fade-in-out;
-  animation-duration: 7s;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
 }
 /*tx*/
@@ -334,6 +334,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   cursor: pointer;
   text-align: right;
+
 }
 
 .mobile-nav-toggle i {
@@ -344,8 +345,8 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: 55px;
   right: 15px;
-  bottom: 15px;
-  left: 15px;
+
+
   z-index: 9999;
   overflow-y: auto;
   background: #fff;
@@ -403,7 +404,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-nav-overly {
   width: 100%;
-  height: 100%;
+  height:100%;
   z-index: 9997;
   top: 0;
   left: 0;
@@ -849,13 +850,14 @@ section {
 .trainers .member h4 {
   font-weight: 700;
   margin-bottom: 2px;
-  font-size: 18px;
+  font-size: 2em;
+  color: #5fcf80;
 }
 
 .trainers .member span {
   font-style: italic;
   display: block;
-  font-size: 13px;
+  font-size: 1em;
 }
 
 .trainers .member p {
@@ -1468,15 +1470,23 @@ section {
   background: #eef0ef;
 }
 
+
 #footer .footer-top {
   padding: 60px 0 30px 0;
   background: #f9faf9;
 }
 
+
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
 }
 
+
+#footer .footer-top .footer-contact img{
+  padding: 0px;
+  width: 80%;
+
+}
 #footer .footer-top .footer-contact h4 {
   font-size: 22px;
   margin: 0 0 30px 0;
