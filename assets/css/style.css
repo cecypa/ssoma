@@ -1598,6 +1598,11 @@ section {
   background: #3ac162;
 }
 
+#footer .copyright a:hover{
+  color: #B738DD;
+}
+
+
 #footer .credits {
   padding-top: 5px;
   font-size: 13px;
@@ -1609,7 +1614,7 @@ section {
 }
 
 #footer .credits a:hover {
-  color: #5fcf80;
+  color: #B738DD;
 }
 
 #footer .social-links a {
